@@ -20,6 +20,12 @@ Como o teclado deve ficar montado (esboço 3D feito antes da placa; o case ainda
 
 ![Conceito visto de cima](docs/img/conceito-topo.png)
 
+| Lateral | Lateral em 3/4 |
+|---|---|
+| ![Conceito: lateral](docs/img/conceito-lateral.png) | ![Conceito: lateral em 3/4](docs/img/conceito-lateral-34.png) |
+
+Na lateral aparecem a cunha do case, o rasgo de RGB na altura da placa e o underglow na mesa.
+
 - **Case em cunha** com 6° de inclinação, fechado nas laterais, e **moldura superior** que abre janelas só em
   volta de cada grupo de teclas (Esc, F1–F4, F5–F8, F9–F12, bloco principal).
 - **OLED** à esquerda e **knob** à direita, na faixa acima da fileira F, rentes à moldura.
