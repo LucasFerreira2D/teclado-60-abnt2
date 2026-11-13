@@ -7,10 +7,25 @@ Teclado mecânico próprio: layout **60% ABNT2 com fileira de funções** (76 te
 A placa foi feita no **KiCad 10** quase toda **por script** (posicionamento, roteamento, acabamento e
 correções), sem desenhar à mão no editor. Os scripts estão em [`hardware/tools/`](hardware/tools).
 
-![Placa em 3D](docs/img/placa-3d.png)
+![Conceito do teclado montado](docs/img/conceito-3d.png)
 
 > **Status:** projeto da placa concluído e revisado (DRC sem erros), **ainda não fabricado**. Firmware QMK
 > ainda não escrito. Pendências em [Antes de fabricar](#antes-de-fabricar).
+
+---
+
+## Conceito
+
+Como o teclado deve ficar montado (esboço 3D feito antes da placa; o case ainda não existe):
+
+![Conceito visto de cima](docs/img/conceito-topo.png)
+
+- **Case em cunha** com 6° de inclinação, fechado nas laterais, e **moldura superior** que abre janelas só em
+  volta de cada grupo de teclas (Esc, F1–F4, F5–F8, F9–F12, bloco principal).
+- **OLED** à esquerda e **knob** à direita, na faixa acima da fileira F, rentes à moldura.
+- Keycaps **perfil Cherry**, com acentos em Esc e Enter.
+- **Underglow** por baixo e **rasgo de RGB nas laterais**, na altura da placa, com acrílico fosco por dentro.
+- Pés traseiros dobráveis em 2 níveis.
 
 ---
 
@@ -25,6 +40,8 @@ correções), sem desenhar à mão no editor. Os scripts estão em [`hardware/to
   [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com) (*Raw data* → colar).
 
 ## A placa
+
+![Placa em 3D](docs/img/placa-3d.png)
 
 | Frente | Verso |
 |---|---|
