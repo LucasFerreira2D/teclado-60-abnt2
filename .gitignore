@@ -1,0 +1,21 @@
+# Backups e rascunhos locais
+backups/
+.superpowers/
+
+# Versões anteriores e saídas intermediárias (só o estado atual vai para o repo)
+hardware/route/
+hardware/kb_out/
+
+# KiCad
+hardware/.history/
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+
+# Python
+__pycache__/
+*.pyc
+hardware/tools/.pydeps/

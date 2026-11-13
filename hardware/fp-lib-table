@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Switch_Keyboard_Hotswap_Kailh")(type "KiCad")(uri "${KICAD10_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr "keyswitch-kicad-library v2.3 (perigoso)"))
+  (lib (name "Mounting_Keyboard_Stabilizer")(type "KiCad")(uri "${KICAD10_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Mounting_Keyboard_Stabilizer.pretty")(options "")(descr "keyswitch-kicad-library v2.3 (perigoso)"))
+  (lib (name "teclado")(type "KiCad")(uri "${KIPRJMOD}/teclado.pretty")(options "")(descr "Footprints do projeto"))
+)

@@ -1,0 +1,17 @@
+(kicad_sch (version 20250610) (generator "eeschema") (generator_version "10.0") (uuid "ae84f316-c7dc-49e1-aef7-6978de8a19ab") (paper "A3") (title_block (title "Teclado 1 - 60% ABNT2 + fileira F") (date "2026-11-11") (rev "0.1")) (lib_symbols) (sheet_instances (path "/" (page "1"))) (embedded_fonts no) (sheet (at 50.8 50.8) (size 50.8 38.1) (stroke (width 0) (type dash)) (fill (type none)) (uuid "fcf48eb6-c5dc-4464-b48a-94ea699af398") 
+
+(property "Sheetname" "MCU" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Sheetfile" "mcu.kicad_sch" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab" (page "2"))))) (sheet (at 127.0 50.8) (size 50.8 38.1) (stroke (width 0) (type dash)) (fill (type none)) (uuid "a0e1eece-c3b3-4802-983e-9aec07e04a04") 
+
+(property "Sheetname" "Matriz" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Sheetfile" "matriz.kicad_sch" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab" (page "3"))))) (sheet (at 203.2 50.8) (size 50.8 38.1) (stroke (width 0) (type dash)) (fill (type none)) (uuid "f71509bc-7e23-4b21-a6aa-ebeb9885454f") 
+
+(property "Sheetname" "LEDs" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Sheetfile" "leds.kicad_sch" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab" (page "4"))))) (sheet (at 279.4 50.8) (size 50.8 38.1) (stroke (width 0) (type dash)) (fill (type none)) (uuid "fea93bdd-9d4b-4b41-85e8-744f37b41671") 
+
+(property "Sheetname" "LEDs extras" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Sheetfile" "leds_extra.kicad_sch" (at 0 0 0) (show_name no) (do_not_autoplace yes) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab" (page "5"))))))

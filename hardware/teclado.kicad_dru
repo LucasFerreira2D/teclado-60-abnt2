@@ -1,0 +1,12 @@
+(version 1)
+
+# SK6812MINI-E de montagem reversa: o footprint tem recorte na placa (Edge.Cuts) com os pads a ~0,3 mm.
+# Fabricantes comuns aceitam 0,2 mm de cobre até a borda.
+(rule "LED reverse-mount: borda do recorte"
+	(constraint edge_clearance (min 0.2mm))
+	(condition "A.memberOfFootprint('LED*') || B.memberOfFootprint('LED*')"))
+
+# Alívio térmico: um raio de 0,4 mm ligando o pad ao plano de GND já basta (correntes pequenas);
+# o padrão do KiCad exige dois.
+(rule "Alivio termico: 1 raio"
+	(constraint min_resolved_spokes 1))

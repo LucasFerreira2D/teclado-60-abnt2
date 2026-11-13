@@ -1,0 +1,5128 @@
+(kicad_sch
+	(version 20250610)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a2e1ffcc-2196-4d81-bc8a-85eb3a98df70")
+	(paper "A3")
+	(title_block
+		(title "LEDs extras: underglow e laterais")
+		(date "2026-11-11")
+		(rev "0.1")
+	)
+	(lib_symbols
+(symbol "LED:SK6812MINI"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5.08 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 1.27 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 1.27 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 2.54 -9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SK6812MINI_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "SK6812MINI_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SK6812MINI_1_1"
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "power:GND"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GND_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GND_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "power:+5V"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+5V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "teclado:SK6812SIDE-A"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5.08 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812SIDE-A"
+			(at 1.27 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm"
+			(at 1.27 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5378721.html"
+			(at 2.54 -9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED enderecavel side-view 4020 (4.0x2.0x1.6 mm), OPSCO SK6812SIDE-A, LCSC C5378721"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED*SK6812SIDE*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SK6812SIDE-A_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "SK6812SIDE-A_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SK6812SIDE-A_1_1"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	)
+(symbol (lib_id "LED:SK6812MINI") (at 35.56 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5a5e2deb-62cb-5a66-8c4c-08df5f73eb53")
+(property "Reference" "LED101" (at 40.64 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 36.83 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 36.83 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 38.1 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "d954767d-6889-5f01-9565-e9c70751b879"))
+(pin "2" (uuid "e815a285-b4eb-5df3-8346-d0f2dff270dd"))
+(pin "3" (uuid "5a60e93d-edac-5045-a5ec-1893b7fe035c"))
+(pin "4" (uuid "d9660775-74fa-5a54-a33e-243969b9a394"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED101") (unit 1))))
+)
+(label "LX1" (at 43.18 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e351dada-0401-455e-979e-b9923d5eaf83"))
+(global_label "LEDOUT" (shape bidirectional) (at 27.94 60.96 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f953f3ac-32d5-4c3b-a95e-25f31797bd74") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 27.94 60.96 0) (effects (font (size 1.27 1.27)) (hide yes))))
+(wire (pts (xy 35.56 68.58) (xy 35.56 71.12)) (stroke (width 0) (type default)) (uuid "66fda03b-51b0-47a3-b08e-aaa9ed7acaa6"))
+(symbol (lib_id "power:GND") (at 35.56 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "39b75422-fc26-5f50-9d45-efc130a806a4")
+(property "Reference" "#PWR501" (at 35.56 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 35.56 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6cfba5a8-364a-56ba-a01b-f1fbc03aadd0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR501") (unit 1))))
+)
+(wire (pts (xy 35.56 53.34) (xy 35.56 50.8)) (stroke (width 0) (type default)) (uuid "c48a0bfb-2920-4639-8d6e-7e94dbcd2ab3"))
+(symbol (lib_id "power:+5V") (at 35.56 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9a83d936-2298-504a-8bb1-b4088a12d6b2")
+(property "Reference" "#PWR502" (at 35.56 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 35.56 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "ecf1bf53-3d4a-51b3-bad6-15aa993cc511"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR502") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 55.88 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "05aa6f31-fd97-5cbb-a67c-f3c9375b2163")
+(property "Reference" "C201" (at 56.515 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 56.515 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 56.8452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "dcc2942d-4c3f-5631-8da3-824206b0fc45"))
+(pin "2" (uuid "486f4ac9-3357-5400-b481-9f1e9d1d5aae"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C201") (unit 1))))
+)
+(wire (pts (xy 55.88 59.69) (xy 55.88 57.15)) (stroke (width 0) (type default)) (uuid "322a236a-b2f9-46a1-b15e-c924f609a887"))
+(symbol (lib_id "power:+5V") (at 55.88 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "ec0d0017-8c33-5f26-ba97-56f84aed8943")
+(property "Reference" "#PWR503" (at 55.88 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 55.88 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5b8ddd2c-16c7-58a0-b8e3-98963aa7a72a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR503") (unit 1))))
+)
+(wire (pts (xy 55.88 67.31) (xy 55.88 69.85)) (stroke (width 0) (type default)) (uuid "08660d1f-ae9b-4e6c-9a13-1f98a6c9c80e"))
+(symbol (lib_id "power:GND") (at 55.88 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b7c33701-6b2c-5985-a04c-eb653aad5be7")
+(property "Reference" "#PWR504" (at 55.88 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 55.88 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6264bb3f-9204-5491-86a8-078011d73172"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR504") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 86.36 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "99ae3a70-519d-53cf-9770-3c4d06801b43")
+(property "Reference" "LED102" (at 91.44 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 87.63 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 87.63 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 88.9 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "7d01a236-8cc9-5db0-8a34-1d08ca44d413"))
+(pin "2" (uuid "490820dc-ec5a-511c-92b0-d37075b52593"))
+(pin "3" (uuid "ca87ff42-144a-5e6a-9cd1-c1b2f7e505c8"))
+(pin "4" (uuid "e5c57f6a-9521-58c7-8553-d5561286eafe"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED102") (unit 1))))
+)
+(label "LX2" (at 93.98 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2df21bcf-d485-4301-b158-010dec450414"))
+(label "LX1" (at 78.74 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "23c5692d-6b9d-4c9a-9110-0c5b5de73661"))
+(wire (pts (xy 86.36 68.58) (xy 86.36 71.12)) (stroke (width 0) (type default)) (uuid "bfbd1b5b-b981-42ea-958c-4a45694ff5e1"))
+(symbol (lib_id "power:GND") (at 86.36 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b037ad28-d1e4-5e46-bd6f-6b03c99ed169")
+(property "Reference" "#PWR505" (at 86.36 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 86.36 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "1b1051c2-babc-5514-86b8-3622126d4121"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR505") (unit 1))))
+)
+(wire (pts (xy 86.36 53.34) (xy 86.36 50.8)) (stroke (width 0) (type default)) (uuid "5baa6432-26ab-4d72-8b5d-b999b8856ec7"))
+(symbol (lib_id "power:+5V") (at 86.36 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "8cfd2dcb-e2cb-5df4-aaf5-d90ddfe4fed8")
+(property "Reference" "#PWR506" (at 86.36 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 86.36 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8e50b070-b95c-5384-b3e5-aedd6ac68314"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR506") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 106.68 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "beaf89ca-12f4-58bf-9ca9-7e47cb9be874")
+(property "Reference" "C202" (at 107.315 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 107.315 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.6452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "96706db3-7041-5927-bda5-ba3f5a6d430e"))
+(pin "2" (uuid "058a84fc-0ead-5f74-b582-a1f95dadc5ef"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C202") (unit 1))))
+)
+(wire (pts (xy 106.68 59.69) (xy 106.68 57.15)) (stroke (width 0) (type default)) (uuid "7eb60e46-1ff0-4c16-aa9f-257aafdd85b2"))
+(symbol (lib_id "power:+5V") (at 106.68 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9df9101e-8d46-510f-8722-1b765c4890e5")
+(property "Reference" "#PWR507" (at 106.68 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 106.68 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "99a73fc3-e545-5fd5-82da-050daf7e4ae0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR507") (unit 1))))
+)
+(wire (pts (xy 106.68 67.31) (xy 106.68 69.85)) (stroke (width 0) (type default)) (uuid "bc6f2521-0132-4cfd-8ef4-9f63bb5b610b"))
+(symbol (lib_id "power:GND") (at 106.68 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "22631831-d322-5d2b-8073-d195f354ca1f")
+(property "Reference" "#PWR508" (at 106.68 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 106.68 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "57e6c31e-6ef9-59b0-a912-aefe0c27c310"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR508") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 137.16 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0674f53b-42bb-5533-bb5a-91f1b2316f3a")
+(property "Reference" "LED103" (at 142.24 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 138.43 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 138.43 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 139.7 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "562d237c-8a53-55e5-949c-2ba686a1e873"))
+(pin "2" (uuid "0ec0894a-79ce-5db4-946d-24f3c181f99c"))
+(pin "3" (uuid "17c624fc-60c2-5867-a710-814ef13a828e"))
+(pin "4" (uuid "691abb95-b3c3-5596-81ee-4810fed7818b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED103") (unit 1))))
+)
+(label "LX3" (at 144.78 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "11956a81-219b-4cc8-8fd5-e86611967e1c"))
+(label "LX2" (at 129.54 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "41e89731-060d-4761-963b-f620e2ff3251"))
+(wire (pts (xy 137.16 68.58) (xy 137.16 71.12)) (stroke (width 0) (type default)) (uuid "1540cee3-008e-44f4-af37-1f818398a415"))
+(symbol (lib_id "power:GND") (at 137.16 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "5b0927ef-eaaa-539e-b6e8-ec1c1cb0d01f")
+(property "Reference" "#PWR509" (at 137.16 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 137.16 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2b164f0a-55f0-582a-a03b-0d1c70ffae4d"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR509") (unit 1))))
+)
+(wire (pts (xy 137.16 53.34) (xy 137.16 50.8)) (stroke (width 0) (type default)) (uuid "c77c144c-d9aa-4a8c-9063-a4eb03b46977"))
+(symbol (lib_id "power:+5V") (at 137.16 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "53fa4eec-287c-5b6e-a696-30a222d77fdb")
+(property "Reference" "#PWR510" (at 137.16 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 137.16 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c7de4885-0bfa-567f-aa2f-7708dd78971c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR510") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 157.48 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "8769e2e2-2b3f-5394-ae7a-448ce48250bc")
+(property "Reference" "C203" (at 158.115 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 158.115 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.4452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "844d6e9b-a250-56fc-8c83-bf6059f804d1"))
+(pin "2" (uuid "53d239f6-05b3-5518-ab90-99ef2280f3eb"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C203") (unit 1))))
+)
+(wire (pts (xy 157.48 59.69) (xy 157.48 57.15)) (stroke (width 0) (type default)) (uuid "1b6b0657-30a0-4042-9316-f9fb5d724292"))
+(symbol (lib_id "power:+5V") (at 157.48 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9a4b6924-27d1-518f-b2d8-a2a9e6289037")
+(property "Reference" "#PWR511" (at 157.48 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 157.48 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b4aca8f5-c709-5260-9edd-ada30a2d1650"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR511") (unit 1))))
+)
+(wire (pts (xy 157.48 67.31) (xy 157.48 69.85)) (stroke (width 0) (type default)) (uuid "6cc26b84-647e-4c35-9b34-c6dd9adc6f15"))
+(symbol (lib_id "power:GND") (at 157.48 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "c5aaea8c-bc2c-5a3f-8811-fe9693dcaef5")
+(property "Reference" "#PWR512" (at 157.48 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 157.48 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5b11a520-3df8-518a-a0a2-1711c733e30a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR512") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 187.96 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "8e9918ac-da9d-52c9-9816-3da3546197cf")
+(property "Reference" "LED104" (at 193.04 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 189.23 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 189.23 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 190.5 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "a6a9e2fb-ad58-543a-877f-23ee73c0e4cc"))
+(pin "2" (uuid "fb7a2954-7f6b-575b-86f1-bdba155338df"))
+(pin "3" (uuid "69c13170-81f5-51a9-a44e-fdd9333f7887"))
+(pin "4" (uuid "7fd3eedb-263a-53c2-8529-5d6a1b1f029d"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED104") (unit 1))))
+)
+(label "LX4" (at 195.58 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9d64b6a9-51c6-4e5e-90b6-777474aadf93"))
+(label "LX3" (at 180.34 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "0cd24a42-f146-4a2a-a0bc-a21e4407871b"))
+(wire (pts (xy 187.96 68.58) (xy 187.96 71.12)) (stroke (width 0) (type default)) (uuid "8d84f095-8057-454e-b9d2-3f21298cc128"))
+(symbol (lib_id "power:GND") (at 187.96 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "99854f3a-be7e-5025-9900-06e70fad9abe")
+(property "Reference" "#PWR513" (at 187.96 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 187.96 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "66edf5c0-c84b-5346-ac5c-502d6fdb0e39"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR513") (unit 1))))
+)
+(wire (pts (xy 187.96 53.34) (xy 187.96 50.8)) (stroke (width 0) (type default)) (uuid "c2ac2df2-725d-4696-aac6-43cd2c3f005f"))
+(symbol (lib_id "power:+5V") (at 187.96 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "edf6cb0d-fbf0-5182-aa86-fc23d05a9ca0")
+(property "Reference" "#PWR514" (at 187.96 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 187.96 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "9a3c0172-2a7f-5dbe-8c62-c4ce8873e1df"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR514") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 208.28 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f1282048-0e39-53f4-8d5e-5102928d124a")
+(property "Reference" "C204" (at 208.915 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 208.915 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 209.2452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "fe810ae8-054f-5fe2-bb52-a6c3b246c122"))
+(pin "2" (uuid "b3c7538f-c93e-53f9-8d0b-cac6b3195067"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C204") (unit 1))))
+)
+(wire (pts (xy 208.28 59.69) (xy 208.28 57.15)) (stroke (width 0) (type default)) (uuid "26b1d929-924b-4a11-af33-cae0d489cc3f"))
+(symbol (lib_id "power:+5V") (at 208.28 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b473b2a2-1e3f-56e8-93e4-4320c368a7af")
+(property "Reference" "#PWR515" (at 208.28 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 208.28 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8c618963-6621-5b9c-a281-3e87181b024c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR515") (unit 1))))
+)
+(wire (pts (xy 208.28 67.31) (xy 208.28 69.85)) (stroke (width 0) (type default)) (uuid "642bd975-0fd2-454a-a2f4-332cc3425244"))
+(symbol (lib_id "power:GND") (at 208.28 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "73f626e2-0613-563c-81d5-f404b96a7118")
+(property "Reference" "#PWR516" (at 208.28 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 208.28 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "04ea77af-315b-5490-b122-3b70b0b1f7af"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR516") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 238.76 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "2a583aab-7dfa-547e-b01f-6a4f3d6e6f24")
+(property "Reference" "LED105" (at 243.84 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 240.03 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 240.03 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 241.3 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "9685c02f-120f-5721-8c53-8e47edfb9cb4"))
+(pin "2" (uuid "872cbe4f-f517-5684-aecc-a534cb2bb5b3"))
+(pin "3" (uuid "3723fff6-a73b-5d25-b41c-66887bb89e42"))
+(pin "4" (uuid "8bc9a678-f9d7-5ae7-a897-656fae11de71"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED105") (unit 1))))
+)
+(label "LX5" (at 246.38 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d3ccbdb3-cedf-44cf-b9ec-490cc0049311"))
+(label "LX4" (at 231.14 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "4f319dec-213c-4a82-85c2-500dc60a4ce7"))
+(wire (pts (xy 238.76 68.58) (xy 238.76 71.12)) (stroke (width 0) (type default)) (uuid "fd2c7ea3-8697-48fb-928d-3239bb8d4e25"))
+(symbol (lib_id "power:GND") (at 238.76 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "996bdede-9181-521a-9b1a-99c1ccd04c6b")
+(property "Reference" "#PWR517" (at 238.76 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 238.76 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "55b3d2ba-a658-5c3c-ac5b-e283fea00d8b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR517") (unit 1))))
+)
+(wire (pts (xy 238.76 53.34) (xy 238.76 50.8)) (stroke (width 0) (type default)) (uuid "c5fa74dc-1080-4bc8-96ff-19c09b2a5e7b"))
+(symbol (lib_id "power:+5V") (at 238.76 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "017a0ac5-60f4-5302-a544-8408c936a168")
+(property "Reference" "#PWR518" (at 238.76 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 238.76 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "670f58ef-69db-50d2-a45b-ef31c7a1fc0e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR518") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 259.08 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "96e7da86-0ac5-5271-999f-53f0e04339c0")
+(property "Reference" "C205" (at 259.715 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 259.715 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "72d7e44e-b996-535a-8535-6e42cc26a652"))
+(pin "2" (uuid "f239c5ab-c207-52eb-94d6-a3de28cf32d4"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C205") (unit 1))))
+)
+(wire (pts (xy 259.08 59.69) (xy 259.08 57.15)) (stroke (width 0) (type default)) (uuid "a5abc51a-0247-4695-bba8-b06fe72d4e86"))
+(symbol (lib_id "power:+5V") (at 259.08 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "68e6f694-5bb1-5cbb-a3d8-796b3c4ccbb5")
+(property "Reference" "#PWR519" (at 259.08 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 259.08 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6e5ba2b2-0687-5970-8f92-837b67b082a9"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR519") (unit 1))))
+)
+(wire (pts (xy 259.08 67.31) (xy 259.08 69.85)) (stroke (width 0) (type default)) (uuid "a2f153f5-2808-4024-b9cd-bc573e170ece"))
+(symbol (lib_id "power:GND") (at 259.08 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "c8e3d5ff-a38e-56f4-ac72-989c02a9aff4")
+(property "Reference" "#PWR520" (at 259.08 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 259.08 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c8a099ff-a0c1-5a8f-9bcd-8d4c6775305b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR520") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 289.56 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "403fc8af-fdb8-5be5-bcb0-8bf1bf1666a8")
+(property "Reference" "LED106" (at 294.64 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 290.83 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 290.83 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 292.1 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "048712ef-6f8a-520f-a949-ff67a7c5cf0c"))
+(pin "2" (uuid "f41195bf-9bfa-5314-aa12-c7d74afb38aa"))
+(pin "3" (uuid "4d514b95-a805-5c72-b113-9040048f49a0"))
+(pin "4" (uuid "b4c31bda-56bd-50c9-b495-d6ab8c6eca97"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED106") (unit 1))))
+)
+(label "LX6" (at 297.18 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1a6d71db-a329-4eb2-9a8d-cf47ea3d293f"))
+(label "LX5" (at 281.94 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "8e0d206b-9d66-4954-8220-b126d4f8d25b"))
+(wire (pts (xy 289.56 68.58) (xy 289.56 71.12)) (stroke (width 0) (type default)) (uuid "0c6b9d0c-4448-44af-abd8-a56abf6dca45"))
+(symbol (lib_id "power:GND") (at 289.56 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "c8a56f2d-8011-5bb4-bc84-40cd972b96e0")
+(property "Reference" "#PWR521" (at 289.56 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 289.56 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e1530efa-029c-55e0-bcf2-4d361a763b50"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR521") (unit 1))))
+)
+(wire (pts (xy 289.56 53.34) (xy 289.56 50.8)) (stroke (width 0) (type default)) (uuid "d8b4596f-3b16-472d-b08c-662b1434072f"))
+(symbol (lib_id "power:+5V") (at 289.56 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "a2757cd6-8f6b-5b05-bd2a-3b391640c97b")
+(property "Reference" "#PWR522" (at 289.56 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 289.56 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "38dfd124-f97f-5029-8efc-a61df605b00e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR522") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 309.88 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "dca8c636-22f4-58f7-8264-9001b8a64c5e")
+(property "Reference" "C206" (at 310.515 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 310.515 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "0c959094-9b9e-5586-a1c0-2f713e5d8ed2"))
+(pin "2" (uuid "9914284b-1b9e-51fd-8f85-495b30d41968"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C206") (unit 1))))
+)
+(wire (pts (xy 309.88 59.69) (xy 309.88 57.15)) (stroke (width 0) (type default)) (uuid "f0c50b74-da90-4a22-97e7-63a25093668a"))
+(symbol (lib_id "power:+5V") (at 309.88 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "e3dc0387-1367-503c-bb7e-aad8ad38904c")
+(property "Reference" "#PWR523" (at 309.88 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 309.88 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "230c86e5-bf55-5d53-adea-81a82c1895a3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR523") (unit 1))))
+)
+(wire (pts (xy 309.88 67.31) (xy 309.88 69.85)) (stroke (width 0) (type default)) (uuid "5eb03140-2057-42c0-ba3f-fdea8ddd3305"))
+(symbol (lib_id "power:GND") (at 309.88 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "29202618-ece0-53c5-bd80-840a52167459")
+(property "Reference" "#PWR524" (at 309.88 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 309.88 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "581e3b27-86d5-5c7f-b0eb-b10fd2b9d942"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR524") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 340.36 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "324970d7-0d2c-5735-86ab-51ab2c0be0b9")
+(property "Reference" "LED107" (at 345.44 55.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 341.63 66.675 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 341.63 68.58 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 342.9 70.485 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "74968650-56a1-5ab4-89a2-2d225623648d"))
+(pin "2" (uuid "87951fbf-b194-599c-a34f-24b9563e1768"))
+(pin "3" (uuid "3b2c87c7-97a7-58aa-be1c-73369f081f6d"))
+(pin "4" (uuid "984fcb32-9922-5d2e-923a-51522cf18ed2"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED107") (unit 1))))
+)
+(label "LX7" (at 347.98 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c89189d4-3ad8-483b-b602-d519278ca923"))
+(label "LX6" (at 332.74 60.96 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "eb6eef2d-763d-4469-95b2-948eea4ab674"))
+(wire (pts (xy 340.36 68.58) (xy 340.36 71.12)) (stroke (width 0) (type default)) (uuid "56b4389e-13f6-4235-95b9-48409498613e"))
+(symbol (lib_id "power:GND") (at 340.36 71.12 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0abbc76c-acbf-5454-9798-8c16db9c7099")
+(property "Reference" "#PWR525" (at 340.36 77.47 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 340.36 74.93 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 71.12 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8df29be3-9d7d-5ac1-aa13-3b95c26af244"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR525") (unit 1))))
+)
+(wire (pts (xy 340.36 53.34) (xy 340.36 50.8)) (stroke (width 0) (type default)) (uuid "a58ac4df-49cb-4be1-a2e4-5895a677f9e0"))
+(symbol (lib_id "power:+5V") (at 340.36 50.8 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "bf80b04e-1e9d-5551-ab2b-89a87889ccc9")
+(property "Reference" "#PWR526" (at 340.36 54.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 340.36 47.244 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 50.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "3d7a3272-ccda-5f4d-9952-95ed3a5898be"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR526") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 360.68 63.5 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b43982bb-ffc8-5adb-b5d5-4d66bf9d65bb")
+(property "Reference" "C207" (at 361.315 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 361.315 66.04 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 361.6452 67.31 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 63.5 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "7c40207e-95bb-54a7-a41a-4baaca6f2c62"))
+(pin "2" (uuid "17c5d615-10b7-5047-8a75-23f13561c67b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C207") (unit 1))))
+)
+(wire (pts (xy 360.68 59.69) (xy 360.68 57.15)) (stroke (width 0) (type default)) (uuid "5a8f5967-8a25-4a76-a57e-25e900b04f53"))
+(symbol (lib_id "power:+5V") (at 360.68 57.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b3c1b69b-28a7-53f2-8f3a-f8807cf856e0")
+(property "Reference" "#PWR527" (at 360.68 60.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 360.68 53.594 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 57.15 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8b66892f-e65f-5905-978c-27ccb5db3138"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR527") (unit 1))))
+)
+(wire (pts (xy 360.68 67.31) (xy 360.68 69.85)) (stroke (width 0) (type default)) (uuid "c0342c47-97c4-4fe3-baa6-79764805565d"))
+(symbol (lib_id "power:GND") (at 360.68 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "208d9e76-8d7e-5b9d-894b-3275aed1f53e")
+(property "Reference" "#PWR528" (at 360.68 76.2 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 360.68 73.66 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 69.85 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2fcec9ab-6de6-5033-b012-e9b4b63ebf38"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR528") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 35.56 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "30efa55f-b65f-5018-9b62-ad9c10fde191")
+(property "Reference" "LED108" (at 40.64 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 36.83 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 36.83 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 38.1 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "81e88055-ba45-5b3d-84ec-79317dda591e"))
+(pin "2" (uuid "e537941e-e3e4-57da-9367-620747904a38"))
+(pin "3" (uuid "bca27ed6-91c4-5449-8821-44e0b4899eba"))
+(pin "4" (uuid "4f7c7542-10a5-526a-afa5-ff022aa31c28"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED108") (unit 1))))
+)
+(label "LX8" (at 43.18 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "44449355-0fd6-40ed-931d-4227707ebfeb"))
+(label "LX7" (at 27.94 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "99e5cf9a-9231-42dd-8b0f-4d865e742e5e"))
+(wire (pts (xy 35.56 124.46) (xy 35.56 127.0)) (stroke (width 0) (type default)) (uuid "e592ed7a-edca-4dc3-b817-c629ad862eaf"))
+(symbol (lib_id "power:GND") (at 35.56 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0d9a3d7c-652d-59da-bb73-3667beca5d26")
+(property "Reference" "#PWR529" (at 35.56 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 35.56 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "739b7a7f-8541-5f30-a08d-1856dcd19306"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR529") (unit 1))))
+)
+(wire (pts (xy 35.56 109.22) (xy 35.56 106.68)) (stroke (width 0) (type default)) (uuid "46f779c7-82d5-41d8-89c9-7fecb4968264"))
+(symbol (lib_id "power:+5V") (at 35.56 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "485a4bd5-b84b-5f9f-b348-112bec946bf2")
+(property "Reference" "#PWR530" (at 35.56 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 35.56 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "dee8175e-fa3b-5188-91f2-52a0bae5bf69"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR530") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 55.88 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "49746256-f422-59a4-83d3-5243037e7861")
+(property "Reference" "C208" (at 56.515 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 56.515 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 56.8452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "f8bf76f2-10f2-56c8-831f-0305dbea7a3c"))
+(pin "2" (uuid "36013efa-1527-58f9-b5ce-32ec7bad4e0b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C208") (unit 1))))
+)
+(wire (pts (xy 55.88 115.57) (xy 55.88 113.03)) (stroke (width 0) (type default)) (uuid "08fb8cbc-7fd1-4ae8-a736-ec0d043bc3af"))
+(symbol (lib_id "power:+5V") (at 55.88 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "53f4a87d-c7a8-5ed2-a6aa-69f1ed143bb8")
+(property "Reference" "#PWR531" (at 55.88 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 55.88 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "44b4a8b9-b367-511a-90f5-2495711f1eeb"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR531") (unit 1))))
+)
+(wire (pts (xy 55.88 123.19) (xy 55.88 125.73)) (stroke (width 0) (type default)) (uuid "ee7f8bfd-03f3-4d55-a69a-eae8f988a874"))
+(symbol (lib_id "power:GND") (at 55.88 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "12da4524-5e64-51d1-8274-7b635ba77f6c")
+(property "Reference" "#PWR532" (at 55.88 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 55.88 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "474997b2-80b1-57e6-8990-37ed26fac69c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR532") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 86.36 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1167e144-24bb-5def-9cc3-8060f7bb65aa")
+(property "Reference" "LED109" (at 91.44 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 87.63 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 87.63 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 88.9 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "90c88d5a-4f9c-58db-ab8e-29476e07ec3e"))
+(pin "2" (uuid "8c270da8-2593-5ea8-951d-506a2aff42a9"))
+(pin "3" (uuid "cb90ab15-c1d1-56ba-a9dd-1b5d78e6fef8"))
+(pin "4" (uuid "d802d5a3-6211-5138-a317-8cad35ed3903"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED109") (unit 1))))
+)
+(label "LX9" (at 93.98 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "39943282-c306-448d-a33c-4ec6fb1da43b"))
+(label "LX8" (at 78.74 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "7141f4ee-8e88-4ab8-906d-39749af9459c"))
+(wire (pts (xy 86.36 124.46) (xy 86.36 127.0)) (stroke (width 0) (type default)) (uuid "38d8afec-fd0f-4498-8c50-5a6a377ca243"))
+(symbol (lib_id "power:GND") (at 86.36 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "a16b6692-98a0-5013-a73a-da6337e4d42f")
+(property "Reference" "#PWR533" (at 86.36 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 86.36 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "4cebfc55-5abb-5752-ac65-b4ad779cf6a7"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR533") (unit 1))))
+)
+(wire (pts (xy 86.36 109.22) (xy 86.36 106.68)) (stroke (width 0) (type default)) (uuid "7f064984-c185-453a-95af-cae43667f9b0"))
+(symbol (lib_id "power:+5V") (at 86.36 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "bee45f36-a916-58c2-935f-36b0471d9821")
+(property "Reference" "#PWR534" (at 86.36 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 86.36 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "68b43f0a-cde6-5339-bf74-05740d38cb2f"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR534") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 106.68 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c3c251e6-6b33-5787-8f92-2f4b79abd150")
+(property "Reference" "C209" (at 107.315 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 107.315 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.6452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a0932891-8a02-56d6-ae09-6a4a28f12a8b"))
+(pin "2" (uuid "4f11c15d-4ac3-5e09-b890-c9b27292c740"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C209") (unit 1))))
+)
+(wire (pts (xy 106.68 115.57) (xy 106.68 113.03)) (stroke (width 0) (type default)) (uuid "3de4c7dc-0c33-4d89-8fa5-6c282c85be37"))
+(symbol (lib_id "power:+5V") (at 106.68 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "1ca2d3f5-0ca1-5e28-8f36-e5ca56d5133c")
+(property "Reference" "#PWR535" (at 106.68 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 106.68 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "3e127470-5005-54f3-bb10-866cb7b5e92c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR535") (unit 1))))
+)
+(wire (pts (xy 106.68 123.19) (xy 106.68 125.73)) (stroke (width 0) (type default)) (uuid "761109a9-bf79-46a8-981e-205068ad9a7c"))
+(symbol (lib_id "power:GND") (at 106.68 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "09054bc3-2ba6-5ea5-bbb8-9444b1397c65")
+(property "Reference" "#PWR536" (at 106.68 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 106.68 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5163f750-dea0-59e5-97b6-1f235a9f66ea"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR536") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 137.16 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6942408e-3fda-5142-a73f-1a645f98f131")
+(property "Reference" "LED110" (at 142.24 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 138.43 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 138.43 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 139.7 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "c4c3b0ea-daeb-5019-85ad-4692ba2b8160"))
+(pin "2" (uuid "29ba794b-2db7-5a93-8559-c6fb1c02adca"))
+(pin "3" (uuid "78e3e9c8-57b5-55c9-992f-84b57c43633a"))
+(pin "4" (uuid "6d8ce3c7-b16f-5619-bc2c-16879ac2e4af"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED110") (unit 1))))
+)
+(label "LX10" (at 144.78 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8655d422-a00d-47f9-b8a4-8b30b03daf97"))
+(label "LX9" (at 129.54 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "53758bee-a2b0-4261-b02d-b4f0d1c8b6a8"))
+(wire (pts (xy 137.16 124.46) (xy 137.16 127.0)) (stroke (width 0) (type default)) (uuid "d521a636-3a62-4ad9-892e-2664b0bef7e9"))
+(symbol (lib_id "power:GND") (at 137.16 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "39cfdc5a-cddf-59d6-9eaa-fb075d94d363")
+(property "Reference" "#PWR537" (at 137.16 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 137.16 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e482b8f2-09fa-5f9c-a36d-36cbe5f2e2de"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR537") (unit 1))))
+)
+(wire (pts (xy 137.16 109.22) (xy 137.16 106.68)) (stroke (width 0) (type default)) (uuid "555c9538-1cf9-4b5f-aab0-66476eee4be9"))
+(symbol (lib_id "power:+5V") (at 137.16 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "6d50c393-45ab-5d57-abdf-780de48dfa31")
+(property "Reference" "#PWR538" (at 137.16 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 137.16 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2df7f155-c9b4-5777-8890-b11e621d5d5f"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR538") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 157.48 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "66a62d4d-f1a2-5d57-8f4d-4ce78e259492")
+(property "Reference" "C210" (at 158.115 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 158.115 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.4452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "78560fb9-5c0e-5328-bd45-42c393d8a7d7"))
+(pin "2" (uuid "f9dbad05-3faa-5f37-ac1a-5d2e16a154fe"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C210") (unit 1))))
+)
+(wire (pts (xy 157.48 115.57) (xy 157.48 113.03)) (stroke (width 0) (type default)) (uuid "e3f21984-cccf-463b-8535-f430f94a15b3"))
+(symbol (lib_id "power:+5V") (at 157.48 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "f6a7686d-07ac-57aa-96df-e129bc36dd4d")
+(property "Reference" "#PWR539" (at 157.48 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 157.48 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "54207bb7-5ae9-58d0-85a8-7406e2df9c6b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR539") (unit 1))))
+)
+(wire (pts (xy 157.48 123.19) (xy 157.48 125.73)) (stroke (width 0) (type default)) (uuid "1452b3dc-d9cb-410b-b459-27c3b0585bd2"))
+(symbol (lib_id "power:GND") (at 157.48 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "91407a92-2fdd-5c85-97ec-749602490e2b")
+(property "Reference" "#PWR540" (at 157.48 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 157.48 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b6dc610d-1e7d-5c07-9316-05fa1f0c047e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR540") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 187.96 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5ebb4c8c-541b-5fcd-914e-c27de6d4dbc9")
+(property "Reference" "LED111" (at 193.04 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 189.23 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 189.23 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 190.5 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "2c5ae76f-2d04-5ed8-a4ab-94bbbf5887f9"))
+(pin "2" (uuid "b6cb0a87-3897-572a-94b4-8debf8995386"))
+(pin "3" (uuid "b86c7dac-a3b4-53ca-9809-9e59e2d9e64d"))
+(pin "4" (uuid "e74fa8d9-f2a4-5179-bb50-745824a71b24"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED111") (unit 1))))
+)
+(label "LX11" (at 195.58 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "25ddea5f-6b67-452a-9c13-18424fd2b958"))
+(label "LX10" (at 180.34 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "82a90877-61bf-4897-8f7e-3d120cf00887"))
+(wire (pts (xy 187.96 124.46) (xy 187.96 127.0)) (stroke (width 0) (type default)) (uuid "f65b9bc8-e360-472a-9892-bc0d4ab797c5"))
+(symbol (lib_id "power:GND") (at 187.96 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "d9a43de9-9588-588c-b9d8-c03ca34a3931")
+(property "Reference" "#PWR541" (at 187.96 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 187.96 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "81414ab3-8187-5700-adac-e2bfb702c074"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR541") (unit 1))))
+)
+(wire (pts (xy 187.96 109.22) (xy 187.96 106.68)) (stroke (width 0) (type default)) (uuid "3d23a741-06e1-42b5-8fd2-ecfa837ae057"))
+(symbol (lib_id "power:+5V") (at 187.96 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "adb108f0-24aa-5982-95bf-83fd5f73ce04")
+(property "Reference" "#PWR542" (at 187.96 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 187.96 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "f7a838fd-67ee-5615-8be7-aaed17ea549c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR542") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 208.28 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5fc4b28f-5655-5a9b-859c-fb4f2a1b0667")
+(property "Reference" "C211" (at 208.915 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 208.915 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 209.2452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "be83646f-6957-577e-b3ef-72ce8da54a71"))
+(pin "2" (uuid "fe4719be-e8b3-571d-bfda-d067536f6960"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C211") (unit 1))))
+)
+(wire (pts (xy 208.28 115.57) (xy 208.28 113.03)) (stroke (width 0) (type default)) (uuid "2db62fa1-156a-459e-af53-cb82eed99332"))
+(symbol (lib_id "power:+5V") (at 208.28 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "88fdff0e-3970-59a9-9d3a-dafef7380d35")
+(property "Reference" "#PWR543" (at 208.28 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 208.28 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6674d1a2-af60-54d3-9152-f3c06bd1aba3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR543") (unit 1))))
+)
+(wire (pts (xy 208.28 123.19) (xy 208.28 125.73)) (stroke (width 0) (type default)) (uuid "3454b92b-9094-4e2f-81c3-a26d2c86c5d8"))
+(symbol (lib_id "power:GND") (at 208.28 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "936eb010-fc07-59b4-a05e-269f0e47c4fe")
+(property "Reference" "#PWR544" (at 208.28 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 208.28 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2739f800-e90d-5aac-ae9b-6a63c6d34168"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR544") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 238.76 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "391b4b1c-d402-5aa9-9ad1-19ce281b78b8")
+(property "Reference" "LED112" (at 243.84 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 240.03 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 240.03 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 241.3 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "a3cb20fc-b3c0-5f51-8e76-9fb994ba2c4b"))
+(pin "2" (uuid "ec8c809d-c29b-5493-b02a-e946b0e49c90"))
+(pin "3" (uuid "354fdf6b-ecc4-5ea8-87a0-864b38af7da9"))
+(pin "4" (uuid "c1e4a226-762e-54f3-8dfc-a8ecfcdd542e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED112") (unit 1))))
+)
+(label "LX12" (at 246.38 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e02a1be7-51a6-4972-8b64-acf31f25a5c6"))
+(label "LX11" (at 231.14 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "64e3e3c0-f329-488c-a747-70a408236471"))
+(wire (pts (xy 238.76 124.46) (xy 238.76 127.0)) (stroke (width 0) (type default)) (uuid "9cf78bd3-f589-46ab-9f5f-b15c2c9d8172"))
+(symbol (lib_id "power:GND") (at 238.76 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "e5b478df-c880-587b-952c-3bcbd6adeb85")
+(property "Reference" "#PWR545" (at 238.76 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 238.76 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "395abc05-cbab-51df-82de-b60c2ba4c872"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR545") (unit 1))))
+)
+(wire (pts (xy 238.76 109.22) (xy 238.76 106.68)) (stroke (width 0) (type default)) (uuid "73d22538-ef6f-4eab-aa85-b0ccb9d36e65"))
+(symbol (lib_id "power:+5V") (at 238.76 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "fe6b3eda-df04-5978-b1e5-1a05a754855a")
+(property "Reference" "#PWR546" (at 238.76 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 238.76 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "ef4d2c15-2b14-564c-b98e-9f5d9f4a238c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR546") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 259.08 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "744d36cf-3205-5a81-a5c3-476252446d15")
+(property "Reference" "C212" (at 259.715 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 259.715 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a000a2e5-c2bc-5875-9e5d-da700785b1ff"))
+(pin "2" (uuid "19c4af5a-7d66-5c32-ad57-87efd904c216"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C212") (unit 1))))
+)
+(wire (pts (xy 259.08 115.57) (xy 259.08 113.03)) (stroke (width 0) (type default)) (uuid "8a24131a-283d-4ed3-ba73-1cd6b0e49ed2"))
+(symbol (lib_id "power:+5V") (at 259.08 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "77d4f98b-ec46-5003-a684-5899dcde3d6d")
+(property "Reference" "#PWR547" (at 259.08 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 259.08 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "93e0c299-b6c0-5e65-b8b5-e63beaf4dca2"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR547") (unit 1))))
+)
+(wire (pts (xy 259.08 123.19) (xy 259.08 125.73)) (stroke (width 0) (type default)) (uuid "73ff8be9-fb30-494b-9c81-9795fdc08989"))
+(symbol (lib_id "power:GND") (at 259.08 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "09076828-a6b9-544c-b27b-66e7b4dc3ccc")
+(property "Reference" "#PWR548" (at 259.08 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 259.08 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b799b96a-84ac-5465-ac00-67288a20ebf0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR548") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 289.56 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0c1824e6-f6ab-5d1a-a052-489edfce3568")
+(property "Reference" "LED113" (at 294.64 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 290.83 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 290.83 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 292.1 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "f47a0a04-7d0d-5383-8c04-4ef37934d35a"))
+(pin "2" (uuid "1dcf3581-e87b-5b64-a552-f6a57b3527b6"))
+(pin "3" (uuid "488e8049-d46a-5703-8806-87906bc26a37"))
+(pin "4" (uuid "3f37d5af-42a7-58ec-b19b-198f850d2b33"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED113") (unit 1))))
+)
+(label "LX13" (at 297.18 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f88de59e-c198-4785-8b56-08b16366ecf6"))
+(label "LX12" (at 281.94 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "15193d07-3509-4b0f-a045-7a9c7654a175"))
+(wire (pts (xy 289.56 124.46) (xy 289.56 127.0)) (stroke (width 0) (type default)) (uuid "95040f99-ea81-4bd0-a5d3-882e39fd340d"))
+(symbol (lib_id "power:GND") (at 289.56 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b03d1552-73fd-58ea-a68a-257e8220beab")
+(property "Reference" "#PWR549" (at 289.56 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 289.56 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2a38f543-3fe3-57aa-9f42-3513b668b06e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR549") (unit 1))))
+)
+(wire (pts (xy 289.56 109.22) (xy 289.56 106.68)) (stroke (width 0) (type default)) (uuid "9306c61b-e8e5-4dba-a019-c70b1cbbfdfb"))
+(symbol (lib_id "power:+5V") (at 289.56 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "8d17ab96-f3b4-5780-bb4e-cfdfea13b069")
+(property "Reference" "#PWR550" (at 289.56 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 289.56 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "20c14ae6-89c6-5fcd-82c1-1e63cb34b951"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR550") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 309.88 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1ea1286b-78eb-5c4c-b346-8351da945037")
+(property "Reference" "C213" (at 310.515 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 310.515 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b140f911-a519-56ea-8763-8f76e6b75158"))
+(pin "2" (uuid "782c876b-e24b-50a9-a44d-5eb6c972f5df"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C213") (unit 1))))
+)
+(wire (pts (xy 309.88 115.57) (xy 309.88 113.03)) (stroke (width 0) (type default)) (uuid "4082c3f0-3ca9-4ff2-b0c0-4fce125fe1c5"))
+(symbol (lib_id "power:+5V") (at 309.88 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "f7faae4a-bf8e-58e7-8be5-ee9c1d24a72e")
+(property "Reference" "#PWR551" (at 309.88 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 309.88 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "15d122a2-7f08-50ba-8e7c-3e8b0b0fbb06"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR551") (unit 1))))
+)
+(wire (pts (xy 309.88 123.19) (xy 309.88 125.73)) (stroke (width 0) (type default)) (uuid "fdfc1f01-0b76-4a4a-bcf0-609e9301c696"))
+(symbol (lib_id "power:GND") (at 309.88 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "10586b49-84f0-5e72-81a9-50228135b166")
+(property "Reference" "#PWR552" (at 309.88 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 309.88 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "15b1ccf5-0546-564b-b775-29a8898c27a8"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR552") (unit 1))))
+)
+(symbol (lib_id "LED:SK6812MINI") (at 340.36 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "daa8cc53-0155-5468-8f3c-eec1b8c4ddc6")
+(property "Reference" "LED114" (at 345.44 111.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812MINI" (at 341.63 122.555 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (at 341.63 124.46 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 342.9 126.365 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "1" (uuid "7b8304ed-bee8-511e-947f-eee125fd7a7e"))
+(pin "2" (uuid "e904f4b1-611d-5908-ab81-f8041c5fc5e1"))
+(pin "3" (uuid "2993a575-9560-5d81-b8d4-78f5b3a2e8f6"))
+(pin "4" (uuid "2519c305-f5d1-5a97-b776-ecb20161f91f"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED114") (unit 1))))
+)
+(label "LX14" (at 347.98 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0e5c63ef-81e8-4213-b276-e804e1a0158a"))
+(label "LX13" (at 332.74 116.84 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "3a2fd5bd-46a8-47f0-9bac-7df6d80e4bb9"))
+(wire (pts (xy 340.36 124.46) (xy 340.36 127.0)) (stroke (width 0) (type default)) (uuid "d78b5567-5c4a-4b21-8976-4a9b4aa6c2b8"))
+(symbol (lib_id "power:GND") (at 340.36 127.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "341fb319-abab-5d3c-95ba-37d770ba753a")
+(property "Reference" "#PWR553" (at 340.36 133.35 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 340.36 130.81 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 127.0 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c79f42c2-64b3-5729-aa36-ade60dc34726"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR553") (unit 1))))
+)
+(wire (pts (xy 340.36 109.22) (xy 340.36 106.68)) (stroke (width 0) (type default)) (uuid "8b93eca1-69f9-4ba5-9136-bd5270c87504"))
+(symbol (lib_id "power:+5V") (at 340.36 106.68 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "a926a6c8-4a70-5632-9228-ad60f14e9a47")
+(property "Reference" "#PWR554" (at 340.36 110.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 340.36 103.124 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 106.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8e2245ef-a77f-56aa-8105-01bd8786ec4b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR554") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 360.68 119.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "81268062-a4e2-5085-b84d-fee29b97c57c")
+(property "Reference" "C214" (at 361.315 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 361.315 121.92 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 361.6452 123.19 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 119.38 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "98a9a1b7-1cda-5f81-a1d5-50ed1d4902dd"))
+(pin "2" (uuid "1476aa50-7564-58b0-8160-70ee216e168e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C214") (unit 1))))
+)
+(wire (pts (xy 360.68 115.57) (xy 360.68 113.03)) (stroke (width 0) (type default)) (uuid "c27096d2-1660-4ef4-b395-0f69677d45b2"))
+(symbol (lib_id "power:+5V") (at 360.68 113.03 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9d477c6f-128a-5633-86f2-5c2f7fb71ffc")
+(property "Reference" "#PWR555" (at 360.68 116.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 360.68 109.474 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 113.03 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "0e86053b-ab28-52de-9959-bbe68b941ba8"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR555") (unit 1))))
+)
+(wire (pts (xy 360.68 123.19) (xy 360.68 125.73)) (stroke (width 0) (type default)) (uuid "0f2474fa-4742-4d9d-8993-c43abcb3c502"))
+(symbol (lib_id "power:GND") (at 360.68 125.73 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "5d595b0a-8fab-58bd-bc05-0d4eacd2b112")
+(property "Reference" "#PWR556" (at 360.68 132.08 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 360.68 129.54 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 125.73 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "1222d17e-a077-5ec2-a932-6240ea68867e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR556") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 35.56 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "44dc73d1-d1a1-5cdc-b01b-7a2a03007089")
+(property "Reference" "LED201" (at 40.64 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 36.83 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 36.83 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 38.1 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "da41cb86-6d68-560c-bb27-59a2419d57d6"))
+(pin "1" (uuid "687d95a3-b992-5453-8cf8-2ff3800da573"))
+(pin "2" (uuid "81982ee4-e24f-5879-80af-b7f2f739b5a9"))
+(pin "3" (uuid "5602530f-90a6-5efd-8b4e-6935e2e26b29"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED201") (unit 1))))
+)
+(label "LX14" (at 27.94 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "145a9019-0ed7-47f1-b12c-d44a83f702cf"))
+(label "LX15" (at 43.18 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "de3d9c9b-0e9a-493a-a4fd-82d63c9512ca"))
+(wire (pts (xy 35.56 180.34) (xy 35.56 182.88)) (stroke (width 0) (type default)) (uuid "996509fb-a198-477a-be26-006c2e788b1f"))
+(symbol (lib_id "power:GND") (at 35.56 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "e1599237-3e3e-5d68-8c3d-4be05ab9c5ae")
+(property "Reference" "#PWR557" (at 35.56 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 35.56 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "4459115f-af3f-52e6-9664-67ca6e6705d9"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR557") (unit 1))))
+)
+(wire (pts (xy 35.56 165.1) (xy 35.56 162.56)) (stroke (width 0) (type default)) (uuid "af79da67-6384-4362-85eb-7b448c37b32c"))
+(symbol (lib_id "power:+5V") (at 35.56 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "d512f4ca-525c-52d3-8960-d87d41162b5f")
+(property "Reference" "#PWR558" (at 35.56 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 35.56 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "aaf493c2-dcce-54fd-a431-18b714282f56"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR558") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 55.88 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e5f82c60-9f05-525d-8214-b1053cb48fde")
+(property "Reference" "C215" (at 56.515 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 56.515 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 56.8452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6d0f5db0-dac3-5b11-826e-d0cd258b0432"))
+(pin "2" (uuid "7ef24525-84df-5733-b41b-a6c7307e6f79"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C215") (unit 1))))
+)
+(wire (pts (xy 55.88 171.45) (xy 55.88 168.91)) (stroke (width 0) (type default)) (uuid "8f394a6e-8e91-4b04-aa41-d91067c3e11f"))
+(symbol (lib_id "power:+5V") (at 55.88 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "6e2654b5-f536-5b9a-90dc-4fbd2968d07d")
+(property "Reference" "#PWR559" (at 55.88 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 55.88 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "891036cd-841d-562c-9e09-3146c1357caa"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR559") (unit 1))))
+)
+(wire (pts (xy 55.88 179.07) (xy 55.88 181.61)) (stroke (width 0) (type default)) (uuid "6538ba8a-f3dc-4f30-a6fe-55edd21ba556"))
+(symbol (lib_id "power:GND") (at 55.88 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "5d01d20c-9024-5eac-873f-45bcd6503347")
+(property "Reference" "#PWR560" (at 55.88 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 55.88 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b5ea0379-de99-5e37-9c47-2cb4d3cca02c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR560") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 86.36 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6db7ade5-49d9-5743-8e97-dbf2414a0c60")
+(property "Reference" "LED202" (at 91.44 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 87.63 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 87.63 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 88.9 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "d844edee-5271-56af-b442-bef272a9a807"))
+(pin "1" (uuid "cc97059d-c70e-5194-92f5-5e0fecc44c3a"))
+(pin "2" (uuid "aa616c7e-c2d6-5ff2-a203-d7b19ad102b3"))
+(pin "3" (uuid "abb77f10-ef06-5c9c-af12-6acbb71f812c"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED202") (unit 1))))
+)
+(label "LX15" (at 78.74 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e3405825-d6ef-4695-b483-8c4ee2612d75"))
+(label "LX16" (at 93.98 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b7b71fa1-d375-4238-9e2b-06ff90700e04"))
+(wire (pts (xy 86.36 180.34) (xy 86.36 182.88)) (stroke (width 0) (type default)) (uuid "8ffa4ce2-0c14-4e3c-a55a-79afb557d788"))
+(symbol (lib_id "power:GND") (at 86.36 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "3afcae7c-4353-560f-8fb7-e86577b50208")
+(property "Reference" "#PWR561" (at 86.36 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 86.36 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "223e5429-9bce-5c35-9d45-73382aee2895"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR561") (unit 1))))
+)
+(wire (pts (xy 86.36 165.1) (xy 86.36 162.56)) (stroke (width 0) (type default)) (uuid "e3d196fd-46a1-4e51-a617-723acd3d997d"))
+(symbol (lib_id "power:+5V") (at 86.36 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "85813326-5159-560d-9c27-7223716f358d")
+(property "Reference" "#PWR562" (at 86.36 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 86.36 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e5b6c191-3e66-5479-b263-777a1f0cd7cc"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR562") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 106.68 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d25597a3-b707-5afd-8532-e00a20b195f6")
+(property "Reference" "C216" (at 107.315 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 107.315 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.6452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8a0df879-7a94-5eea-88e5-8d369557d218"))
+(pin "2" (uuid "e3aee97f-54f7-5725-aecb-dd028b8b15eb"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C216") (unit 1))))
+)
+(wire (pts (xy 106.68 171.45) (xy 106.68 168.91)) (stroke (width 0) (type default)) (uuid "3fb3877f-b73d-4fb8-a798-f95befd73170"))
+(symbol (lib_id "power:+5V") (at 106.68 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "b6afe44a-70ea-588d-ad9c-aa00ddc31f02")
+(property "Reference" "#PWR563" (at 106.68 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 106.68 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "dc8abf49-1041-5e6c-b4d9-8dae78c143bc"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR563") (unit 1))))
+)
+(wire (pts (xy 106.68 179.07) (xy 106.68 181.61)) (stroke (width 0) (type default)) (uuid "05e19c91-f0e9-41e7-859e-972601ab0bb8"))
+(symbol (lib_id "power:GND") (at 106.68 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "c3113d1f-6a3c-50fd-8ac8-83e1947497c9")
+(property "Reference" "#PWR564" (at 106.68 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 106.68 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a3a42719-1872-5e74-beec-005812685c10"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR564") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 137.16 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9946f8da-474e-58f9-91ab-e3aa8c36762a")
+(property "Reference" "LED203" (at 142.24 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 138.43 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 138.43 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 139.7 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "f537ef0a-56cc-5274-bda4-6b084b552f2e"))
+(pin "1" (uuid "c9a3aa52-9d29-56cf-9131-b449d33362c4"))
+(pin "2" (uuid "41c48f85-68c6-522b-8d49-13904a92830e"))
+(pin "3" (uuid "12c8c2bf-6fe8-5e3f-8725-a224cc6e0f52"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED203") (unit 1))))
+)
+(label "LX16" (at 129.54 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "a9f5c9a7-1a0e-44c4-ad2f-ddedf17bf56c"))
+(label "LX17" (at 144.78 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "38f164dc-ed4d-4cc3-b608-a3520fa1be38"))
+(wire (pts (xy 137.16 180.34) (xy 137.16 182.88)) (stroke (width 0) (type default)) (uuid "62a2f9c9-6a5a-4949-8490-2124d8d632ee"))
+(symbol (lib_id "power:GND") (at 137.16 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "3402463c-de30-575a-af31-aeb7a76af624")
+(property "Reference" "#PWR565" (at 137.16 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 137.16 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a2183a04-d00c-5297-b43b-af87b60ca609"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR565") (unit 1))))
+)
+(wire (pts (xy 137.16 165.1) (xy 137.16 162.56)) (stroke (width 0) (type default)) (uuid "2e3cf26f-e12a-4115-98e2-3cc52bb0d3b4"))
+(symbol (lib_id "power:+5V") (at 137.16 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "a7bd6254-674f-53c9-aee5-4dc236e13d5e")
+(property "Reference" "#PWR566" (at 137.16 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 137.16 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "00b10b6b-9396-50f6-9782-1cf3e6537d58"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR566") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 157.48 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "a1486eba-40ac-5478-ad0c-b501073bc6f3")
+(property "Reference" "C217" (at 158.115 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 158.115 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.4452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "eb413620-70fb-5884-8a23-cf661e647245"))
+(pin "2" (uuid "0ac9245c-e270-5b74-a2bb-4b2490fbea06"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C217") (unit 1))))
+)
+(wire (pts (xy 157.48 171.45) (xy 157.48 168.91)) (stroke (width 0) (type default)) (uuid "83e718d8-cb15-4df5-a429-12c711413d68"))
+(symbol (lib_id "power:+5V") (at 157.48 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "5fcac5f1-5e7f-525c-8934-1b0b07ca85f4")
+(property "Reference" "#PWR567" (at 157.48 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 157.48 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "f81e714e-5923-54a1-8100-7487d4670077"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR567") (unit 1))))
+)
+(wire (pts (xy 157.48 179.07) (xy 157.48 181.61)) (stroke (width 0) (type default)) (uuid "7b07f36a-7ad7-4599-a162-9689ea6e92c8"))
+(symbol (lib_id "power:GND") (at 157.48 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "7c250381-a129-505c-8ae9-2e74d6651119")
+(property "Reference" "#PWR568" (at 157.48 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 157.48 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e124085e-670c-5670-94a9-a0ed523cf6bf"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR568") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 187.96 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c7733beb-f38d-5e55-a481-3596b12d8c65")
+(property "Reference" "LED204" (at 193.04 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 189.23 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 189.23 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 190.5 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "dd233d7c-ac6b-52d9-a0c5-fe30e27fa9dd"))
+(pin "1" (uuid "74c097f9-7d9d-5b2f-a68a-c642f598eab9"))
+(pin "2" (uuid "ba62e928-aba9-5779-8816-b667c15d41f5"))
+(pin "3" (uuid "7193e0f8-aca0-5da2-9ce8-7941d9e0e05b"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED204") (unit 1))))
+)
+(label "LX17" (at 180.34 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ab688350-8b4f-4e2f-8a97-07ced39da2ec"))
+(label "LX18" (at 195.58 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bb80ddc1-29cf-43eb-9e4a-3fd632f7f2d8"))
+(wire (pts (xy 187.96 180.34) (xy 187.96 182.88)) (stroke (width 0) (type default)) (uuid "a912ec85-0edf-49d0-9d03-84eb795d9ba0"))
+(symbol (lib_id "power:GND") (at 187.96 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "eea30478-7b79-5372-8c67-ab6daaddfc6c")
+(property "Reference" "#PWR569" (at 187.96 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 187.96 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "94df18b5-a42e-550c-a2e1-92ee0a68a7c3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR569") (unit 1))))
+)
+(wire (pts (xy 187.96 165.1) (xy 187.96 162.56)) (stroke (width 0) (type default)) (uuid "56ce5af8-4276-4a84-9cd4-ab412cfb7352"))
+(symbol (lib_id "power:+5V") (at 187.96 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "44af3d5d-ef02-571c-99bb-e09f21fbd93c")
+(property "Reference" "#PWR570" (at 187.96 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 187.96 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6273e6c7-5ccc-5573-afe1-6e030c442bb4"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR570") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 208.28 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "bb86273a-1d92-54a6-982d-d5a51eafc7d1")
+(property "Reference" "C218" (at 208.915 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 208.915 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 209.2452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "50ddff08-6c7a-53ad-8c55-a165bd15f2a6"))
+(pin "2" (uuid "14be476a-bf5b-52dc-aa76-fd8e2713f607"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C218") (unit 1))))
+)
+(wire (pts (xy 208.28 171.45) (xy 208.28 168.91)) (stroke (width 0) (type default)) (uuid "50849d0b-fa0d-497d-965d-8e968f22ecaa"))
+(symbol (lib_id "power:+5V") (at 208.28 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "d3943e7e-12bd-5826-9590-1f60912c17e1")
+(property "Reference" "#PWR571" (at 208.28 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 208.28 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c0f6face-5364-585a-b142-b2c66c71ac8a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR571") (unit 1))))
+)
+(wire (pts (xy 208.28 179.07) (xy 208.28 181.61)) (stroke (width 0) (type default)) (uuid "856138e6-1fef-43af-afc2-08b73ded3215"))
+(symbol (lib_id "power:GND") (at 208.28 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "21348eb3-53c8-5b25-b8ee-f7af8a64835d")
+(property "Reference" "#PWR572" (at 208.28 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 208.28 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "d3e2e4d0-b856-554a-9ac3-142bca04deab"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR572") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 238.76 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1f856c1d-0f44-594f-a00c-9859c851ee34")
+(property "Reference" "LED205" (at 243.84 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 240.03 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 240.03 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 241.3 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "4ffccc31-ab84-5499-8b25-213f0a1792e0"))
+(pin "1" (uuid "1a1e777a-7a14-5068-9725-290d1bbad244"))
+(pin "2" (uuid "fcac7931-943a-594c-9bfc-2d7ae81a291e"))
+(pin "3" (uuid "7b1f6129-a4c9-5380-bdbd-b5cca073019a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED205") (unit 1))))
+)
+(label "LX18" (at 231.14 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "2803df55-6d64-493a-a594-4bab9026bbab"))
+(label "LX19" (at 246.38 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "990ba83b-f42f-498f-92af-d1b08c0a2d57"))
+(wire (pts (xy 238.76 180.34) (xy 238.76 182.88)) (stroke (width 0) (type default)) (uuid "df0414e4-e47c-478a-b41b-607a7d9cd9f0"))
+(symbol (lib_id "power:GND") (at 238.76 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "7c6fcaf2-fcb3-5c00-9b17-897815430714")
+(property "Reference" "#PWR573" (at 238.76 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 238.76 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "2475fcf8-8ca6-50ee-928e-8c226390a6f2"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR573") (unit 1))))
+)
+(wire (pts (xy 238.76 165.1) (xy 238.76 162.56)) (stroke (width 0) (type default)) (uuid "c26700a3-cb75-44a6-bf67-3b5bacbc2578"))
+(symbol (lib_id "power:+5V") (at 238.76 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "06b12db0-39f9-556c-9123-0063c1844e5d")
+(property "Reference" "#PWR574" (at 238.76 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 238.76 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "18c6b80a-7daf-527f-a93d-b8f024efcc93"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR574") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 259.08 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0568e266-ebaa-5556-b09e-b0eac5ceca0b")
+(property "Reference" "C219" (at 259.715 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 259.715 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5cb773b3-2168-5fa1-9aab-c20f99152192"))
+(pin "2" (uuid "e3b5fc40-7bee-5928-ab19-6f13ffdef9cc"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C219") (unit 1))))
+)
+(wire (pts (xy 259.08 171.45) (xy 259.08 168.91)) (stroke (width 0) (type default)) (uuid "4cfafad5-8cd1-4d2f-8ec8-2f4821f21c26"))
+(symbol (lib_id "power:+5V") (at 259.08 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "61dc6732-1051-5ad4-b42f-c8df83071069")
+(property "Reference" "#PWR575" (at 259.08 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 259.08 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "1f0c40c2-3154-57bf-9ffd-1a5aa7fc7ddd"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR575") (unit 1))))
+)
+(wire (pts (xy 259.08 179.07) (xy 259.08 181.61)) (stroke (width 0) (type default)) (uuid "5edad70e-3890-4ee5-9bf5-e42cd584e323"))
+(symbol (lib_id "power:GND") (at 259.08 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "797a0eda-5709-5333-80e3-2b2f80d85d2e")
+(property "Reference" "#PWR576" (at 259.08 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 259.08 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "756b0750-24b9-5a39-86b0-9d8770a6b380"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR576") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 289.56 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4ba39a27-1474-5dc5-a168-317bd41bd4a3")
+(property "Reference" "LED206" (at 294.64 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 290.83 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 290.83 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 292.1 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "2aabab9d-a016-5ade-902e-fa3afabe2a7e"))
+(pin "1" (uuid "793d298d-f03b-516a-bfbc-0cef9b5417e6"))
+(pin "2" (uuid "cf8d7ce1-91a2-5982-9ae8-1082b50e0396"))
+(pin "3" (uuid "1f0fb53b-0e29-5a38-8c68-f21ab8bab47a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED206") (unit 1))))
+)
+(label "LX19" (at 281.94 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "9eae08ee-53ac-4d1d-b646-1212f197da2b"))
+(label "LX20" (at 297.18 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "58f9f7a9-0b84-4e70-b178-96ac79a37b0d"))
+(wire (pts (xy 289.56 180.34) (xy 289.56 182.88)) (stroke (width 0) (type default)) (uuid "318e94f3-6cb1-4254-b0a4-9eed4c67e657"))
+(symbol (lib_id "power:GND") (at 289.56 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "16cdd906-0687-53be-8353-346ef2f5cf2e")
+(property "Reference" "#PWR577" (at 289.56 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 289.56 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "77d2eacb-4f3d-5999-aca4-ed8c1f3c637e"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR577") (unit 1))))
+)
+(wire (pts (xy 289.56 165.1) (xy 289.56 162.56)) (stroke (width 0) (type default)) (uuid "2df32ce2-76cb-42e1-855d-4d0920dddc7a"))
+(symbol (lib_id "power:+5V") (at 289.56 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0ffed612-6050-591e-a329-596a8dc2f2db")
+(property "Reference" "#PWR578" (at 289.56 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 289.56 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 289.56 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 289.56 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c6c5a4a7-1ef1-5262-af43-92fad1b3535f"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR578") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 309.88 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "3a088e9c-fd98-5f0a-a522-dd27fe7b4772")
+(property "Reference" "C220" (at 310.515 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 310.515 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a46e3f04-ae37-5de0-9f1d-43e774f81513"))
+(pin "2" (uuid "a881556e-e754-5b9a-ad95-2f024bda5237"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C220") (unit 1))))
+)
+(wire (pts (xy 309.88 171.45) (xy 309.88 168.91)) (stroke (width 0) (type default)) (uuid "22690af4-6cf8-473f-89d2-2e06e9ed0628"))
+(symbol (lib_id "power:+5V") (at 309.88 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "da6b99cb-6f74-5146-8e0e-c70572e5e4e8")
+(property "Reference" "#PWR579" (at 309.88 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 309.88 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5a4cf11a-8011-59bf-8fae-6ac5d7b466f1"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR579") (unit 1))))
+)
+(wire (pts (xy 309.88 179.07) (xy 309.88 181.61)) (stroke (width 0) (type default)) (uuid "bbdcbdbb-5295-44e8-a82b-f42d08ed3c52"))
+(symbol (lib_id "power:GND") (at 309.88 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0f9e9d7d-2891-5790-b933-5ed9749db0ba")
+(property "Reference" "#PWR580" (at 309.88 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 309.88 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 309.88 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 309.88 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "6d994ba9-a40c-50e7-809a-f323b681ea55"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR580") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 340.36 172.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "2be1a0d7-0fef-5aee-9c69-146975b9b400")
+(property "Reference" "LED207" (at 345.44 167.005 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 341.63 178.435 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 341.63 180.34 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 342.9 182.245 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "bae8e237-919d-5fe9-9b68-c52ad3beed03"))
+(pin "1" (uuid "e700c001-528c-581e-8d68-ef02d77a8fc2"))
+(pin "2" (uuid "8a6ceee2-5df0-5639-903f-f82279a817e9"))
+(pin "3" (uuid "537c74f0-ab11-5bee-bccc-e1d0b8bad1ce"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED207") (unit 1))))
+)
+(label "LX20" (at 332.74 172.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "124f11d7-668e-4d99-a273-d1e851d18f8f"))
+(label "LX21" (at 347.98 172.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5d601836-bb38-42e7-a5bd-9b01432a8a4a"))
+(wire (pts (xy 340.36 180.34) (xy 340.36 182.88)) (stroke (width 0) (type default)) (uuid "903043f0-dc14-439f-b4ea-50a2dc7122f5"))
+(symbol (lib_id "power:GND") (at 340.36 182.88 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "84d2bc8a-d249-56b2-9d6a-b28571749c3a")
+(property "Reference" "#PWR581" (at 340.36 189.23 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 340.36 186.69 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 182.88 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "733bed75-abb1-5468-8498-d9d5325be569"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR581") (unit 1))))
+)
+(wire (pts (xy 340.36 165.1) (xy 340.36 162.56)) (stroke (width 0) (type default)) (uuid "d909d80b-50a9-4945-bdfa-451af45a8a0f"))
+(symbol (lib_id "power:+5V") (at 340.36 162.56 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "7f9565e0-4d43-559d-8cbf-a80d2276f907")
+(property "Reference" "#PWR582" (at 340.36 166.37 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 340.36 159.004 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 340.36 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 340.36 162.56 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "065eec65-c168-5443-9cb2-0be1e41c9134"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR582") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 360.68 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1436ee11-d185-5f85-a0b0-8180dfec5dbe")
+(property "Reference" "C221" (at 361.315 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 361.315 177.8 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 361.6452 179.07 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 175.26 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "590c3cc6-76c6-530e-b55a-fef85e2fd1a1"))
+(pin "2" (uuid "1c839560-32c8-5952-94c5-6f2ced1ac0e6"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C221") (unit 1))))
+)
+(wire (pts (xy 360.68 171.45) (xy 360.68 168.91)) (stroke (width 0) (type default)) (uuid "3297aab4-13db-4f45-8fc1-d6146afe4806"))
+(symbol (lib_id "power:+5V") (at 360.68 168.91 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "a5bbb35f-7379-5d39-baf6-9b867841f996")
+(property "Reference" "#PWR583" (at 360.68 172.72 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 360.68 165.354 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 168.91 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e9824308-fbc2-56a3-9134-b627bf847e23"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR583") (unit 1))))
+)
+(wire (pts (xy 360.68 179.07) (xy 360.68 181.61)) (stroke (width 0) (type default)) (uuid "b41dc634-d9a0-4f21-b2db-ed22b0b62462"))
+(symbol (lib_id "power:GND") (at 360.68 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "06d1d29c-77e6-5f56-b50b-fc09f8e8cecd")
+(property "Reference" "#PWR584" (at 360.68 187.96 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 360.68 185.42 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 360.68 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 360.68 181.61 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "9fb958a8-bff3-55d7-9a7d-e2b350f5a2f0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR584") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 35.56 228.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f83bebc9-d11e-5e02-93e7-6faf3df25bd1")
+(property "Reference" "LED208" (at 40.64 222.885 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 36.83 234.315 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 36.83 236.22 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 38.1 238.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "f8eab380-c06d-50a3-bc54-75b2c3e54ec1"))
+(pin "1" (uuid "2c05b231-4a1f-5385-a701-b8f6afff9c52"))
+(pin "2" (uuid "508e3155-2cd0-5260-8c1c-6f99c8ebf2ab"))
+(pin "3" (uuid "335b6813-c4f5-5757-8225-a78c6754bfeb"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED208") (unit 1))))
+)
+(label "LX21" (at 27.94 228.6 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "082dc5fb-6d3d-4201-9fad-c64aadd95130"))
+(label "LX22" (at 43.18 228.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "70450347-9c3a-4b29-96c5-d5effb83a0d4"))
+(wire (pts (xy 35.56 236.22) (xy 35.56 238.76)) (stroke (width 0) (type default)) (uuid "38b87e27-90cc-4d95-88f3-ce1c06dc5e4f"))
+(symbol (lib_id "power:GND") (at 35.56 238.76 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "fdac5874-631b-50c7-85cf-87ce09629872")
+(property "Reference" "#PWR585" (at 35.56 245.11 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 35.56 242.57 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "7b177e4a-2a8c-57b2-bba7-88519035ee87"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR585") (unit 1))))
+)
+(wire (pts (xy 35.56 220.98) (xy 35.56 218.44)) (stroke (width 0) (type default)) (uuid "835dea72-3208-4b79-b545-c267027a9457"))
+(symbol (lib_id "power:+5V") (at 35.56 218.44 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "fa1df009-7860-5ba0-8123-0fe0f2dccf4c")
+(property "Reference" "#PWR586" (at 35.56 222.25 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 35.56 214.884 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 35.56 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 35.56 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "ae276b82-d37d-5a68-9688-3eb2ca7359f8"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR586") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 55.88 231.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "cf69c7e0-8c3c-5574-bace-66cc871c41de")
+(property "Reference" "C222" (at 56.515 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 56.515 233.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 56.8452 234.95 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 231.14 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a7e08237-41f1-5866-8383-fb8ec50ae23f"))
+(pin "2" (uuid "2205ce9d-7ff7-5a6d-a5e6-bdf3a1c0e7a3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C222") (unit 1))))
+)
+(wire (pts (xy 55.88 227.33) (xy 55.88 224.79)) (stroke (width 0) (type default)) (uuid "e3f0fc47-2ca1-449f-a302-8b3a75c67b45"))
+(symbol (lib_id "power:+5V") (at 55.88 224.79 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "39b4ad7f-43c2-5b46-8eaa-990985929aac")
+(property "Reference" "#PWR587" (at 55.88 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 55.88 221.234 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "8d1e775d-fbe5-5c0e-b84e-a94f477ee502"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR587") (unit 1))))
+)
+(wire (pts (xy 55.88 234.95) (xy 55.88 237.49)) (stroke (width 0) (type default)) (uuid "c81047ee-a8bd-4538-86ae-1dfb247cc83c"))
+(symbol (lib_id "power:GND") (at 55.88 237.49 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0ab4ad1d-9340-580b-a614-10ea4be0edf9")
+(property "Reference" "#PWR588" (at 55.88 243.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 55.88 241.3 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 55.88 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 55.88 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "87b55ee6-b281-51e8-8eb7-c648aed9a00a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR588") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 86.36 228.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "86c003ee-2a2d-5c59-8f0b-ad4a8d4f85e6")
+(property "Reference" "LED209" (at 91.44 222.885 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 87.63 234.315 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 87.63 236.22 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 88.9 238.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "4e5d9169-c8a1-51e7-8306-c7bace879405"))
+(pin "1" (uuid "3204071d-8b81-5acc-ae3f-306a0217d515"))
+(pin "2" (uuid "7aa4c8f4-b6a5-54b0-ba40-a6cf5d5d25f3"))
+(pin "3" (uuid "2bb277fe-8635-5df9-b7f8-c2dd09451aaa"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED209") (unit 1))))
+)
+(label "LX22" (at 78.74 228.6 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "f327aa39-c71d-4447-8bf5-d16483d764ae"))
+(label "LX23" (at 93.98 228.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d74167e9-24ca-4130-8746-664c27837b7d"))
+(wire (pts (xy 86.36 236.22) (xy 86.36 238.76)) (stroke (width 0) (type default)) (uuid "1b114168-b3b8-419b-a611-04667998b6c8"))
+(symbol (lib_id "power:GND") (at 86.36 238.76 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "820a14ef-143b-5728-9621-e3c9082a11da")
+(property "Reference" "#PWR589" (at 86.36 245.11 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 86.36 242.57 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "5d6333ac-1cb7-51e5-a0c7-23fce7685506"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR589") (unit 1))))
+)
+(wire (pts (xy 86.36 220.98) (xy 86.36 218.44)) (stroke (width 0) (type default)) (uuid "ab6d2ff0-47b9-4d47-ba78-cbee5f9ce24c"))
+(symbol (lib_id "power:+5V") (at 86.36 218.44 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "47457bed-c56f-593f-87e5-d127f8b55b9e")
+(property "Reference" "#PWR590" (at 86.36 222.25 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 86.36 214.884 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 86.36 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 86.36 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "e5e04384-c56d-55fb-9d7e-f203333ab735"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR590") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 106.68 231.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "04f76355-aad8-5d6a-8ef8-89abb4c7bbcf")
+(property "Reference" "C223" (at 107.315 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 107.315 233.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.6452 234.95 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 231.14 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "d306cfcb-ab98-5ce7-a288-2fa46cdef635"))
+(pin "2" (uuid "bff35d75-b671-5301-8c46-7e1fd8abf5cc"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C223") (unit 1))))
+)
+(wire (pts (xy 106.68 227.33) (xy 106.68 224.79)) (stroke (width 0) (type default)) (uuid "34b163d6-2f41-4f70-aa9b-ce852818a04b"))
+(symbol (lib_id "power:+5V") (at 106.68 224.79 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "5311660a-2f25-5292-9681-13956dfce4b4")
+(property "Reference" "#PWR591" (at 106.68 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 106.68 221.234 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "d1018fb2-61ef-5dcd-a852-1ff79f13f8a5"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR591") (unit 1))))
+)
+(wire (pts (xy 106.68 234.95) (xy 106.68 237.49)) (stroke (width 0) (type default)) (uuid "88b7b0f7-00dc-4ffe-bcb4-5ff0fada6858"))
+(symbol (lib_id "power:GND") (at 106.68 237.49 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "838650a6-d875-5610-9a77-4fb4e020a68a")
+(property "Reference" "#PWR592" (at 106.68 243.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 106.68 241.3 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 106.68 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 106.68 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "231db90e-f5be-5579-8489-ca278e8919a5"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR592") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 137.16 228.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "cbc1c3c8-57cf-582e-a3e8-0cf682581bf4")
+(property "Reference" "LED210" (at 142.24 222.885 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 138.43 234.315 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 138.43 236.22 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 139.7 238.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "a0bec2d5-42b7-561a-bec1-9ddce892030f"))
+(pin "1" (uuid "5683541a-c6c5-5363-bd50-dd6bd24e0642"))
+(pin "2" (uuid "5845ff0f-ed50-51c6-9abe-9c67eb8819bc"))
+(pin "3" (uuid "ae89d52d-daf7-5cf1-be3b-02afaee6a223"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED210") (unit 1))))
+)
+(label "LX23" (at 129.54 228.6 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "2afc1ad9-b9de-49d2-ac2e-31a36d9f07de"))
+(label "LX24" (at 144.78 228.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ded5d0fa-a9ff-468f-a8cc-644f0b5b883b"))
+(wire (pts (xy 137.16 236.22) (xy 137.16 238.76)) (stroke (width 0) (type default)) (uuid "ac9623e2-b1d8-4adc-baee-3a247d69bfc1"))
+(symbol (lib_id "power:GND") (at 137.16 238.76 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "4ab02bbd-d66a-5323-8ee1-0db5239e6093")
+(property "Reference" "#PWR593" (at 137.16 245.11 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 137.16 242.57 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "f5c87a4d-4c58-508d-896f-d95fbb9780cb"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR593") (unit 1))))
+)
+(wire (pts (xy 137.16 220.98) (xy 137.16 218.44)) (stroke (width 0) (type default)) (uuid "45e53258-004e-41ed-ae84-0c6559b8e529"))
+(symbol (lib_id "power:+5V") (at 137.16 218.44 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "83a5f7ea-ab99-5a0f-94c4-f322ff70b377")
+(property "Reference" "#PWR594" (at 137.16 222.25 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 137.16 214.884 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 137.16 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 137.16 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "3b800bb6-d438-5815-8706-82e1d01186d3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR594") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 157.48 231.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9cedc539-86b0-56c8-9377-ffe478057594")
+(property "Reference" "C224" (at 158.115 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 158.115 233.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.4452 234.95 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 231.14 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "9ba0722a-69ac-5f8f-af10-1725416a72f9"))
+(pin "2" (uuid "e4ce8385-d2b7-5da8-865f-3925e80f4cb9"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C224") (unit 1))))
+)
+(wire (pts (xy 157.48 227.33) (xy 157.48 224.79)) (stroke (width 0) (type default)) (uuid "cb64cf3a-2e1c-49d6-94b3-ad7bf8dc2b30"))
+(symbol (lib_id "power:+5V") (at 157.48 224.79 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "d8478197-1fee-5f4a-9a99-31afea2a4093")
+(property "Reference" "#PWR595" (at 157.48 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 157.48 221.234 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "16899146-f53d-5d8d-a58d-b7d4b837df16"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR595") (unit 1))))
+)
+(wire (pts (xy 157.48 234.95) (xy 157.48 237.49)) (stroke (width 0) (type default)) (uuid "7029ebef-6eae-4e5f-8465-8a0133b49616"))
+(symbol (lib_id "power:GND") (at 157.48 237.49 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "56841198-3608-5756-a98f-9ae454104fcd")
+(property "Reference" "#PWR596" (at 157.48 243.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 157.48 241.3 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 157.48 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 157.48 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "37a53186-83c7-518c-a09c-fab02fdb3cb2"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR596") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 187.96 228.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "07510bb0-c022-5258-90d5-78c99cbf6192")
+(property "Reference" "LED211" (at 193.04 222.885 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 189.23 234.315 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 189.23 236.22 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 190.5 238.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "edca3079-2679-5f2a-8643-ba22a5edc3d6"))
+(pin "1" (uuid "5bdfc250-2458-5234-9a91-ea0606a4802f"))
+(pin "2" (uuid "cd41a60d-a28c-581e-97d8-1bc786e53d8c"))
+(pin "3" (uuid "6660004a-3193-509a-aab8-f4b32800e11a"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED211") (unit 1))))
+)
+(label "LX24" (at 180.34 228.6 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ae65fc2a-98b0-411d-9d64-aee507c8d91c"))
+(label "LX25" (at 195.58 228.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2f31e097-d759-481c-ae39-9eaa9a1a93aa"))
+(wire (pts (xy 187.96 236.22) (xy 187.96 238.76)) (stroke (width 0) (type default)) (uuid "191dd622-1065-435f-ba8d-6be1fb6a7066"))
+(symbol (lib_id "power:GND") (at 187.96 238.76 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "c01e1f36-d852-5b83-af36-52854e7ccea9")
+(property "Reference" "#PWR597" (at 187.96 245.11 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 187.96 242.57 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a84484a4-3172-5091-aea4-72e129e0c445"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR597") (unit 1))))
+)
+(wire (pts (xy 187.96 220.98) (xy 187.96 218.44)) (stroke (width 0) (type default)) (uuid "3a6d7efc-d330-47f6-a71b-edd2f8e666d1"))
+(symbol (lib_id "power:+5V") (at 187.96 218.44 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "3a951b6d-1336-545d-9a8b-4c67699329c5")
+(property "Reference" "#PWR598" (at 187.96 222.25 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 187.96 214.884 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 187.96 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 187.96 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "bed4f19d-aca5-5c55-bd27-3be09b7a2bc3"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR598") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 208.28 231.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c0c424d1-e7e7-5f9e-8d8a-eafadd05e7d2")
+(property "Reference" "C225" (at 208.915 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 208.915 233.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 209.2452 234.95 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 231.14 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "37f4265a-4c40-5b4e-9837-25da71491fd2"))
+(pin "2" (uuid "2ad16632-ef72-57e6-b7e3-4514b8cb9366"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C225") (unit 1))))
+)
+(wire (pts (xy 208.28 227.33) (xy 208.28 224.79)) (stroke (width 0) (type default)) (uuid "51f2146d-a57a-41a3-b18b-575abf6a58ba"))
+(symbol (lib_id "power:+5V") (at 208.28 224.79 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "7c312a0e-1e5e-55a5-8744-18af0922fb88")
+(property "Reference" "#PWR599" (at 208.28 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 208.28 221.234 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "4cf991a7-0aa1-5caf-a3fd-a97468835375"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR599") (unit 1))))
+)
+(wire (pts (xy 208.28 234.95) (xy 208.28 237.49)) (stroke (width 0) (type default)) (uuid "367e4b23-0c90-4a1d-8f04-3ff321d5f695"))
+(symbol (lib_id "power:GND") (at 208.28 237.49 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9ad8e704-8815-51b5-ada6-eab594767007")
+(property "Reference" "#PWR600" (at 208.28 243.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 208.28 241.3 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 208.28 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 208.28 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "ba53e87b-e95f-5dc4-97bf-e35fd53ae477"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR600") (unit 1))))
+)
+(symbol (lib_id "teclado:SK6812SIDE-A") (at 238.76 228.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "3a0d7888-3dd7-50b6-a6fa-7db7676c4ac0")
+(property "Reference" "LED212" (at 243.84 222.885 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			))
+(property "Value" "SK6812SIDE-A" (at 240.03 234.315 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			))
+(property "Footprint" "teclado:LED_SK6812SIDE-A_4.0x1.6mm" (at 240.03 236.22 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(property "Datasheet" "" (at 241.3 238.125 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			 (hide yes)))
+(pin "4" (uuid "80300627-020c-5f43-a73f-da3bfe61c079"))
+(pin "1" (uuid "8606c30f-367c-5b46-9f28-78e1ff13b945"))
+(pin "2" (uuid "4c686bd0-6375-518e-877a-59fbb8342688"))
+(pin "3" (uuid "5a4dccfa-2fa9-57f8-aeec-c91790e671e0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "LED212") (unit 1))))
+)
+(label "LX25" (at 231.14 228.6 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "3f6ff069-c7d1-4019-bff2-24c34855d903"))
+(no_connect (at 246.38 228.6) (uuid "20f0c680-63fc-4920-8d2b-65f0df99fe6b"))
+(wire (pts (xy 238.76 236.22) (xy 238.76 238.76)) (stroke (width 0) (type default)) (uuid "7a027913-c1cd-4d99-bb18-cd229f26237e"))
+(symbol (lib_id "power:GND") (at 238.76 238.76 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "9d19ec34-8f8c-58af-a5a9-9ed522c39a7b")
+(property "Reference" "#PWR601" (at 238.76 245.11 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 238.76 242.57 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 238.76 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "b6e70dc5-0008-5c3a-9d88-3832728bf9d0"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR601") (unit 1))))
+)
+(wire (pts (xy 238.76 220.98) (xy 238.76 218.44)) (stroke (width 0) (type default)) (uuid "84db005b-73f3-465a-b991-5d617c85f0f2"))
+(symbol (lib_id "power:+5V") (at 238.76 218.44 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "0e76a2af-df1a-5d8e-b6e2-7cdc70be23a9")
+(property "Reference" "#PWR602" (at 238.76 222.25 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 238.76 214.884 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 238.76 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 238.76 218.44 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "412cee72-da85-5102-b63a-55842c56c499"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR602") (unit 1))))
+)
+(symbol (lib_id "Device:C") (at 259.08 231.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9d0d87b8-ba6a-530a-8cbc-e53a4ad70ece")
+(property "Reference" "C226" (at 259.715 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Value" "100nF" (at 259.715 233.68 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			))
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 234.95 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 231.14 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "c7c868a4-f234-563d-a6c6-9be65de6ab36"))
+(pin "2" (uuid "560f6fd5-cd9b-51e6-b463-afbdd6399bfa"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "C226") (unit 1))))
+)
+(wire (pts (xy 259.08 227.33) (xy 259.08 224.79)) (stroke (width 0) (type default)) (uuid "cd8239f8-612a-4af3-b9af-32ec2a1ae55f"))
+(symbol (lib_id "power:+5V") (at 259.08 224.79 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "e0923450-f8bd-52db-ab61-6823995e613b")
+(property "Reference" "#PWR603" (at 259.08 228.6 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "+5V" (at 259.08 221.234 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 224.79 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "a25347ce-af5b-59c2-ae77-044bf19885e6"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR603") (unit 1))))
+)
+(wire (pts (xy 259.08 234.95) (xy 259.08 237.49)) (stroke (width 0) (type default)) (uuid "a7acc777-84c6-47c8-8dfb-cf3363d12ab4"))
+(symbol (lib_id "power:GND") (at 259.08 237.49 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid "e8bc9eac-f207-5467-b8fa-c14cc536552a")
+(property "Reference" "#PWR604" (at 259.08 243.84 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Value" "GND" (at 259.08 241.3 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			))
+(property "Footprint" "" (at 259.08 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(property "Datasheet" "" (at 259.08 237.49 0) (effects
+				(font
+					(size 1.27 1.27)
+				)
+			 (hide yes)))
+(pin "1" (uuid "0c3e471a-2ea4-550e-ad80-43f42ffacdb2"))
+(instances (project "teclado" (path "/ae84f316-c7dc-49e1-aef7-6978de8a19ab/fea93bdd-9d4b-4b41-85e8-744f37b41671" (reference "#PWR604") (unit 1))))
+)
+(text "Underglow: 14x SK6812MINI no verso, virados para a mesa (cadeia continua do LEDOUT das teclas)" (exclude_from_sim no) (at 30.48 40.64 0) (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom)) (uuid "c5a0c9bc-cac8-4b24-b469-884bf5651640"))
+(text "Laterais: 12x SK6812SIDE-A na borda da placa, 6 por lado, iluminando os rasgos do case" (exclude_from_sim no) (at 30.48 152.4 0) (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom)) (uuid "c7e631e4-3a01-4ef4-a3d7-d1e59fb223dd"))
+	(embedded_fonts no)
+)

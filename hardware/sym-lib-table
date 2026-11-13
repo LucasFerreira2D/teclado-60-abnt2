@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teclado")(type "KiCad")(uri "${KIPRJMOD}/teclado.kicad_sym")(options "")(descr "Símbolos do projeto"))
+)
